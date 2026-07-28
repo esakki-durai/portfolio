@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Zigi Softwares — websites, ERP, CRM, and custom business applications. Professional development, clear delivery, ongoing support."
+    />
+    <title>Zigi Softwares — Website & Business Software Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center py-1" href="#home">
+          <img
+            class="navbar-logo-img"
+            src="images/zigi-logo.png"
+            alt="Zigi Softwares"
+            decoding="async"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="ms-lg-3 mt-3 mt-lg-0 d-flex flex-wrap gap-2">
+            <a class="btn btn-outline-primary btn-sm" href="#pricing">Get Quote</a>
+            <a class="btn btn-primary btn-sm link-gform" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="hero d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-7">
+            <p class="hero-badge text-primary fw-semibold mb-2">Software & Website Development</p>
+            <h1 class="hero-title display-4 fw-bold mb-3">
+              We Build Websites &amp; <span class="text-gradient">Business Software</span>
+            </h1>
+            <p class="hero-lead lead text-secondary mb-4">
+              Transforming business into digital. Your technology partner for custom software, smart
+              solutions, ERP, CRM, and web applications that scale with you.
+            </p>
+            <div class="hero-cta d-flex flex-wrap gap-3 align-items-center">
+              <a class="btn btn-primary btn-lg px-4 link-gform" href="#contact">
+                Contact Us <i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i>
+              </a>
+              <a class="btn btn-outline-primary btn-lg px-4" href="#pricing">View pricing</a>
+            </div>
+            <div class="row g-3 mt-5">
+              <div class="col-sm-4">
+                <div class="p-3 rounded-3 bg-white shadow-sm stat-card h-100">
+                  <p class="stat-number mb-0">50+</p>
+                  <h3 class="h6 fw-bold text-primary mb-1">Projects</h3>
+                  <p class="small text-secondary mb-0">Delivered across web &amp; business apps</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="p-3 rounded-3 bg-white shadow-sm stat-card h-100">
+                  <p class="stat-number mb-0">100+</p>
+                  <h3 class="h6 fw-bold text-primary mb-1">Clients</h3>
+                  <p class="small text-secondary mb-0">Trusted for quality &amp; clear communication</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="p-3 rounded-3 bg-white shadow-sm stat-card h-100">
+                  <p class="stat-number mb-0">24/7</p>
+                  <h3 class="h6 fw-bold text-primary mb-1">Support</h3>
+                  <p class="small text-secondary mb-0">Plans for maintenance &amp; ongoing care</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center">
+            <div class="p-4 p-lg-5 rounded-4 bg-white shadow-lg hero-side-card">
+              <p class="text-primary small text-uppercase fw-bold letter-spacing mb-2">Why choose us</p>
+              <ul class="list-unstyled text-start mb-0 check-list">
+                <li class="d-flex align-items-start mb-3">
+                  <i class="bi bi-check-circle-fill text-primary me-2 flex-shrink-0" aria-hidden="true"></i>
+                  <span>Quality-driven development with structured delivery</span>
+                </li>
+                <li class="d-flex align-items-start mb-3">
+                  <i class="bi bi-check-circle-fill text-primary me-2 flex-shrink-0" aria-hidden="true"></i>
+                  <span>Scalable solutions that grow with your operations</span>
+                </li>
+                <li class="d-flex align-items-start mb-3">
+                  <i class="bi bi-check-circle-fill text-primary me-2 flex-shrink-0" aria-hidden="true"></i>
+                  <span>Responsive support &amp; maintenance options</span>
+                </li>
+                <li class="d-flex align-items-start">
+                  <i class="bi bi-check-circle-fill text-primary me-2 flex-shrink-0" aria-hidden="true"></i>
+                  <span>Modern stack: secure backends, APIs &amp; polished UI</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="py-5">
+      <div class="container py-lg-4">
+        <p class="section-eyebrow text-center mb-2">Who we are</p>
+        <h2 class="section-title text-center">About Us</h2>
+        <p class="section-subtitle text-center">
+          We help businesses go digital with reliable websites and tailored software.
+        </p>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="p-4 h-100 rounded-4 bg-white shadow-sm">
+              <h3 class="h5 fw-bold text-primary mb-3">Company introduction</h3>
+              <p class="text-secondary mb-0">
+                Zigi Softwares is a software and web development company focused on dependable,
+                scalable solutions for growing businesses. We pair clear communication with disciplined
+                engineering so your product launches on schedule and remains straightforward to own
+                and extend.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-4 h-100 rounded-4 bg-white shadow-sm">
+              <h3 class="h5 fw-bold text-primary mb-3">What we do</h3>
+              <p class="text-secondary mb-0">
+                We design and build business websites, web applications, e-commerce stores, ERP and
+                CRM systems, and industry-specific software for hospitals, schools, and billing. We
+                also integrate third-party APIs and provide website maintenance and support.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="p-4 h-100 rounded-4 border border-primary border-opacity-25 bg-white">
+              <h3 class="h6 fw-bold mb-2">Mission</h3>
+              <p class="small text-secondary mb-0">
+                Deliver dependable digital products that simplify operations and grow with our
+                clients’ businesses.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="p-4 h-100 rounded-4 border border-secondary border-opacity-25 bg-white">
+              <h3 class="h6 fw-bold mb-2">Vision</h3>
+              <p class="small text-secondary mb-0">
+                To be a long-term technology partner known for quality, transparency, and support.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-4 h-100 rounded-4 bg-section-alt">
+              <h3 class="h5 fw-bold mb-3">Why choose us</h3>
+              <ul class="text-secondary mb-0 ps-3">
+                <li class="mb-2">Clear scopes and milestones before development starts</li>
+                <li class="mb-2">Responsive, mobile-friendly interfaces by default</li>
+                <li class="mb-2">Secure coding practices and structured handover</li>
+                <li>Flexible engagement: fixed packages or custom software by requirement</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-4 h-100 rounded-4 bg-section-alt">
+              <h3 class="h5 fw-bold mb-3">Technologies we use</h3>
+              <p class="text-secondary small mb-3">
+                We pick tools that fit your project—common choices include:
+              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary px-3 py-2">HTML / CSS</span>
+                <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary px-3 py-2">Bootstrap</span>
+                <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary px-3 py-2">JavaScript</span>
+                <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2">PHP / Node</span>
+                <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2">MySQL / APIs</span>
+                <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2">React (as needed)</span>
+                <span class="badge rounded-pill bg-secondary bg-opacity-10 text-secondary px-3 py-2">WordPress (optional)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-5 bg-section-alt">
+      <div class="container py-lg-4">
+        <p class="section-eyebrow text-center mb-2">What we offer</p>
+        <h2 class="section-title text-center">Services</h2>
+        <p class="section-subtitle text-center">
+          From marketing sites to enterprise-style modules—we cover the full digital product range.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-globe2" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">Website Development</h3>
+              <p class="text-secondary small mb-0">Professional business websites tailored to your brand and goals.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-window-stack" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">Web Application</h3>
+              <p class="text-secondary small mb-0">Custom web software for workflows, dashboards, and operations.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-cart3" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">E-Commerce Website</h3>
+              <p class="text-secondary small mb-0">Online stores with catalog, cart, and payment integration.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-diagram-3" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">ERP Software</h3>
+              <p class="text-secondary small mb-0">Business management: inventory, accounts, HR modules, and more.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-people" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">CRM Software</h3>
+              <p class="text-secondary small mb-0">Lead tracking, customer records, and sales pipeline tools.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-heart-pulse" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">Hospital Software</h3>
+              <p class="text-secondary small mb-0">Clinic and hospital management: appointments, patients, billing.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-mortarboard" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">School Software</h3>
+              <p class="text-secondary small mb-0">School management: admissions, fees, attendance, and reports.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-receipt" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">Billing Software</h3>
+              <p class="text-secondary small mb-0">Invoicing, GST-ready billing, and payment tracking.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-plug" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">API Integration</h3>
+              <p class="text-secondary small mb-0">Connect payments, SMS, shipping, and other third-party services.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mx-md-auto col-lg-4">
+            <div class="card service-card p-4">
+              <div class="service-icon mb-3"><i class="bi bi-wrench-adjustable" aria-hidden="true"></i></div>
+              <h3 class="h5 fw-bold">Website Maintenance</h3>
+              <p class="text-secondary small mb-0">Updates, backups, security checks, and ongoing support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="py-5">
+      <div class="container py-lg-4">
+        <p class="section-eyebrow text-center mb-2">Investment</p>
+        <h2 class="section-title text-center">Pricing</h2>
+        <p class="section-subtitle text-center">
+          Transparent starting ranges. Final quotes depend on scope—we discuss everything before we
+          build.
+        </p>
+        <div class="pricing-wrap">
+          <div class="table-responsive">
+            <table class="table pricing-table mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">Package</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="fw-semibold">Basic Website</td>
+                  <td class="pricing-highlight">₹5,000 – ₹8,000</td>
+                  <td>5 Pages, Contact Form</td>
+                </tr>
+                <tr>
+                  <td class="fw-semibold">Standard Website</td>
+                  <td class="pricing-highlight">₹10,000 – ₹15,000</td>
+                  <td>10 Pages, Admin Panel</td>
+                </tr>
+                <tr>
+                  <td class="fw-semibold">Premium Website</td>
+                  <td class="pricing-highlight">₹20,000+</td>
+                  <td>Custom Design + Admin</td>
+                </tr>
+                <tr>
+                  <td class="fw-semibold">E-Commerce Website</td>
+                  <td class="pricing-highlight">₹25,000 – ₹40,000</td>
+                  <td>Product + Payment</td>
+                </tr>
+                <tr>
+                  <td class="fw-semibold">Custom Software</td>
+                  <td class="pricing-highlight">Based on Requirement</td>
+                  <td>Discussion</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="pricing-note-box">
+          <h3 class="h6 fw-bold text-primary mb-2">Pricing Note</h3>
+          <p class="mb-2 text-secondary">
+            Basic websites have fixed pricing. Customizable websites and software will be developed
+            based on client requirements, business needs, number of modules, and features. Final
+            pricing will be discussed after requirement analysis.
+          </p>
+          <p class="mb-0 text-secondary small">
+            Customizable software price will be discussed based on business requirement and
+            features.
+          </p>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-primary btn-lg px-5 link-gform" href="#contact">
+            Request a quote via Google Form
+            <i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="py-5 bg-section-alt">
+      <div class="container py-lg-4">
+        <p class="section-eyebrow text-center mb-2">Our work</p>
+        <h2 class="section-title text-center">Portfolio / Projects</h2>
+        <p class="section-subtitle text-center">
+          Representative work across ERP, commerce, healthcare, and portals—illustrative imagery.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card portfolio-card">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+                alt="Retail ERP dashboard screenshot"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="h5 fw-bold">Modern ERP System</h3>
+                <p class="text-secondary small mb-2">
+                  Inventory, purchases, and sales reporting for a multi-branch retail operation.
+                </p>
+                <p class="small mb-1"><strong>Technology:</strong> PHP, MySQL, Bootstrap, REST APIs</p>
+                <p class="small text-muted mb-0"><strong>Client:</strong> Confidential</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card portfolio-card">
+              <img
+                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"
+                alt="E-commerce storefront screenshot"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="h5 fw-bold">E-Commerce Platform</h3>
+                <p class="text-secondary small mb-2">
+                  Storefront with catalog, cart, payments, and admin order management.
+                </p>
+                <p class="small mb-1"><strong>Technology:</strong> JavaScript, payment APIs, responsive UI</p>
+                <p class="small text-muted mb-0"><strong>Client:</strong> UrbanMart Pvt. Ltd.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card portfolio-card">
+              <img
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
+                alt="Hospital management system screenshot"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="h5 fw-bold">Healthcare App</h3>
+                <p class="text-secondary small mb-2">
+                  Appointments, patient records, and billing for a mid-size clinic.
+                </p>
+                <p class="small mb-1"><strong>Technology:</strong> Secure web app, role-based access, reporting</p>
+                <p class="small text-muted mb-0"><strong>Client:</strong> Under NDA</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 mx-md-auto mx-lg-0">
+            <article class="card portfolio-card">
+              <img
+                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+                alt="Real estate listings portal screenshot"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="h5 fw-bold">Real Estate Portal</h3>
+                <p class="text-secondary small mb-2">
+                  Listings, inquiries, and agent dashboards for property discovery.
+                </p>
+                <p class="small mb-1"><strong>Technology:</strong> Bootstrap, CMS, maps &amp; search integration</p>
+                <p class="small text-muted mb-0"><strong>Client:</strong> Metro Realty Group</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container py-lg-4">
+        <p class="section-eyebrow text-center mb-2">Start a conversation</p>
+        <h2 class="section-title text-center">Contact</h2>
+        <p class="section-subtitle text-center">
+          Send your enquiry through our Google Form (opens in a new tab), or write to us directly.
+        </p>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="contact-card h-100">
+              <h3 class="h5 fw-bold mb-3">Get in touch</h3>
+              <p class="text-secondary small mb-4">
+                The enquiry form collects <strong>Name</strong>, <strong>Phone</strong>,
+                <strong>Email</strong>, <strong>Service required</strong>, and <strong>Message</strong>.
+              </p>
+              <p class="d-flex align-items-start gap-2 small mb-3">
+                <i class="bi bi-geo-alt text-primary mt-1" aria-hidden="true"></i>
+                <span class="text-secondary"
+                  ><strong class="text-dark">Office</strong><br />India — remote-first delivery
+                  nationwide</span
+                >
+              </p>
+              <p class="d-flex align-items-start gap-2 small mb-3">
+                <i class="bi bi-telephone text-primary mt-1" aria-hidden="true"></i>
+                <span
+                  ><strong class="text-dark">Phone / WhatsApp</strong><br />
+                  <a href="https://wa.me/919894634748?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20project." class="text-primary">+91 98946 34748</a></span
+                >
+              </p>
+              <p class="d-flex align-items-start gap-2 small mb-4">
+                <i class="bi bi-envelope text-primary mt-1" aria-hidden="true"></i>
+                <span
+                  ><strong class="text-dark">Email</strong><br />
+                  <a href="mailto:zigisoftwares@gmail.com" class="text-primary">zigisoftwares@gmail.com</a></span
+                >
+              </p>
+              <a
+                class="btn btn-primary w-100 mb-2 py-3 fw-semibold link-gform d-flex align-items-center justify-content-center gap-2"
+                href="#contact"
+              >
+                <i class="bi bi-file-earmark-text" aria-hidden="true"></i>
+                Open Google Form
+              </a>
+              <a
+                class="btn btn-outline-primary w-100 mb-2"
+                href="https://wa.me/919894634748?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20project."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bi bi-whatsapp me-1" aria-hidden="true"></i> Chat on WhatsApp
+              </a>
+              <a class="btn btn-outline-secondary w-100" href="mailto:zigisoftwares@gmail.com">
+                <i class="bi bi-envelope me-1" aria-hidden="true"></i> Send email
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="contact-card contact-form-panel">
+              <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-3">
+                <div>
+                  <h3 class="h5 fw-bold mb-1">Enquiry form</h3>
+                  <p class="text-secondary small mb-0">
+                    Prefer the full page? Use the button — same form, optimized for typing.
+                  </p>
+                </div>
+                <a
+                  class="btn btn-primary px-4 py-2 fw-semibold link-gform flex-shrink-0"
+                  href="#contact"
+                >
+                  Go to Google Forms <i class="bi bi-box-arrow-up-right ms-1" aria-hidden="true"></i>
+                </a>
+              </div>
+              <p class="small text-muted mb-3" id="gformSetupNote">
+                <strong>One-time setup:</strong> set <code>PORTFOLIO_GOOGLE_FORM_URL</code> at the
+                bottom of this page to your form’s link (Google Forms → Send → link icon). The embed
+                loads automatically.
+              </p>
+              <iframe
+                id="googleFormFrame"
+                class="google-form-frame shadow-sm bg-light"
+                title="Zigi Softwares contact form"
+                src="about:blank"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer pt-5 pb-4">
+      <div class="container">
+        <div class="row g-4 pb-4 border-bottom border-secondary border-opacity-25">
+          <div class="col-md-6 col-lg-4">
+            <img
+              class="footer-logo-img mb-3"
+              src="images/zigi-logo.png"
+              alt="Zigi Softwares"
+              decoding="async"
+            />
+            <p class="small mb-0">
+              Custom software and web platforms built for real operations—websites, ERP, CRM, and
+              line-of-business tools you can rely on.
+            </p>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="text-white small fw-bold text-uppercase mb-3">Quick Links</h3>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="#home">Home</a></li>
+              <li class="mb-2"><a href="#about">About Us</a></li>
+              <li class="mb-2"><a href="#services">Services</a></li>
+              <li class="mb-2"><a href="#pricing">Pricing</a></li>
+              <li class="mb-2"><a href="#portfolio">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-3">
+            <h3 class="text-white small fw-bold text-uppercase mb-3">Services</h3>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><a href="#services">Website Development</a></li>
+              <li class="mb-2"><a href="#services">Web Application</a></li>
+              <li class="mb-2"><a href="#services">E-Commerce</a></li>
+              <li class="mb-2"><a href="#services">ERP &amp; CRM</a></li>
+              <li><a href="#services">Maintenance</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="text-white small fw-bold text-uppercase mb-3">Contact Info</h3>
+            <p class="small mb-2 text-secondary">India · Remote-first</p>
+            <p class="small mb-2">
+              <a href="mailto:zigisoftwares@gmail.com">zigisoftwares@gmail.com</a>
+            </p>
+            <p class="small mb-3">
+              <a href="https://wa.me/919894634748">+91 98946 34748</a>
+            </p>
+            <a class="btn btn-sm btn-outline-light mb-3 link-gform" href="#contact">Google Form</a>
+            <h3 class="text-white small fw-bold text-uppercase mb-2">Social</h3>
+            <div class="mt-2 d-flex flex-wrap gap-2">
+              <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <p class="small text-center text-secondary mb-0 pt-4">
+          © <span id="year"></span> Zigi Softwares. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/919894634748?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+        <path
+          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.905.129 1.247.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+        />
+      </svg>
+    </a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      /**
+       * Your published Google Form URL (Send → link). Example:
+       * https://docs.google.com/forms/d/e/XXXXXXXX/viewform
+       * Contact buttons open this in a new tab; the embed adds ?embedded=true automatically.
+       */
+      window.PORTFOLIO_GOOGLE_FORM_URL = "";
+    </script>
+    <script src="js/main.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

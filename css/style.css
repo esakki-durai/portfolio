@@ -1866,8 +1866,9 @@ a:hover {
 .premium-accordion {
   --bs-accordion-bg: transparent;
   --bs-accordion-border-color: var(--border);
-  --bs-accordion-btn-color: #fff;
-  --bs-accordion-active-color: #fff;
+  --bs-accordion-color: var(--text);
+  --bs-accordion-btn-color: var(--heading);
+  --bs-accordion-active-color: var(--heading);
   --bs-accordion-active-bg: transparent;
   --bs-accordion-btn-focus-box-shadow: none;
   --bs-accordion-body-padding-x: 1.5rem;
